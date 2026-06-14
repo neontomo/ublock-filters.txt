@@ -1,0 +1,4 @@
+! Title: tomofilters
+! Description: the filters that Tomo deems useful for uBlock Origin
+! Homepage: https://github.com/neontomo/ublock-filters.txt
+! License: MIT
