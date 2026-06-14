@@ -1,0 +1,28 @@
+! Title: tomofilters - AI
+! Expires: 1 day (update frequency)
+! Description: disable AI websites
+! Homepage: github.com/neontomo/tomofilters.txt
+! License: MIT
+! Version: 1.0
+
+# AI companies
+
+||chatgpt.com^$all
+||openai.com^$all
+||perplexity.com^$all
+||grok.com^$all
+||gemini.google.com^$all
+||gemini.google^$all
+||copilot.cloud.microsoft^$all
+||copilot.microsoft.com^$all
+||perplexity.ai^$all
+||anthropic.com^$all
+||claude.com^$all
+||deepseek.com^$all
+||suno.com^$all
+
+# companies that pushed for AI a bit too hard
+
+||duolingo.com^$all
+||spotify.com^$all
+||grammarly.com^$all

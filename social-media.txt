@@ -1,0 +1,17 @@
+! Title: tomofilters - addictive social media
+! Expires: 1 day (update frequency)
+! Description: disable addictive social media websites
+! Homepage: github.com/neontomo/tomofilters.txt
+! License: MIT
+! Version: 1.0
+
+||twitter.com^$all
+||x.com^$all
+||instagram.com^$all
+||tiktok.com^$all
+||twitch.com^$all
+||threads.com^$all
+||pinterest.com^$all
+
+# disable automatic Reddit translations
+||reddit.com^$removeparam=tl

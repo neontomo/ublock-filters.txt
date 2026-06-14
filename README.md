@@ -1,2 +1,2 @@
-# ublock-filters.txt
-personal ublock filters
+# tomofilters.txt
+Tomo's personal ublock filters

@@ -1,0 +1,27 @@
+! Title: tomofilters - news
+! Expires: 1 day (update frequency)
+! Description: disable news websites
+! Homepage: github.com/neontomo/tomofilters.txt
+! License: MIT
+! Version: 1.0
+
+||bbc.com^$all
+||bbc.co.uk^$all
+||cnn.com^$all
+||abc.com^$all
+||cbs.com^$all
+||nytimes.com^$all
+||msn.com^$all
+||theguardian.com^$all
+||news.google.com^$all
+||finance.yahoo.com^$all
+||dailymail.co.uk^$all
+||cnbc.com^$all
+||wsj.com^$all
+||cbsnews.com^$all
+||telegraph.co.uk^$all
+||independent.co.uk^$all
+||dn.se^$all
+||svd.se^$all
+||aftonbladet.se^$all
+||expressen.se^$all
