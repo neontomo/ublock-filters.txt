@@ -2,3 +2,11 @@
 ! Description: the filters that Tomo deems useful for uBlock Origin
 ! Homepage: https://github.com/neontomo/ublock-filters.txt
 ! License: MIT
+
+# disable reddit translations
+||reddit.com^$removeparam=tl
+
+# disable social media
+||twitter.com^$all
+||x.com^$all
+||instagram.com^$all
