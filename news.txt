@@ -1,7 +1,7 @@
 ! Title: tomofilters - news
 ! Expires: 1 day (update frequency)
 ! Description: disable news websites
-! Homepage: github.com/neontomo/tomofilters.txt
+! Homepage: https://github.com/neontomo/tomofilters.txt
 ! License: MIT
 ! Version: 1.0
 

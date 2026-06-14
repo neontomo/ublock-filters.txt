@@ -1,7 +1,7 @@
 ! Title: tomofilters - entertainment
 ! Expires: 1 day (update frequency)
 ! Description: disable entertainment + streaming websites
-! Homepage: github.com/neontomo/tomofilters.txt
+! Homepage: https://github.com/neontomo/tomofilters.txt
 ! License: MIT
 ! Version: 1.0
 
