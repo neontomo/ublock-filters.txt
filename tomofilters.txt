@@ -13,3 +13,4 @@
 ||x.com^$all
 ||instagram.com^$all
 ||tiktok.com^$all
+||twitch.com^$all
