@@ -16,3 +16,6 @@
 
 ! disable automatic Reddit translations
 ||reddit.com^$removeparam=tl
+
+! disable Reddit recommended content
+reddit.com##shreddit-post[recommendation-source]
