@@ -12,7 +12,7 @@
 reddit.com##shreddit-post[recommendation-source]
 
 ! hide user avatars everywhere (needs `span` in the syntax or else it will hide comments)
-reddit.com##[slot="commentAvatar"]:has(span[avatar]),span[avatar],[alt*="avatar"]
+reddit.com##[slot="commentAvatar"]:has(span[avatar]),span[avatar]
 
 ! --SIDEBAR--
 
