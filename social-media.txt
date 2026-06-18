@@ -13,9 +13,3 @@
 ||pinterest.com^$all
 ||reddit.com/r/popular^$all
 ||reddit.com/news^$all
-
-! disable automatic Reddit translations
-||reddit.com^$removeparam=tl
-
-! disable Reddit recommended content
-reddit.com##shreddit-post[recommendation-source]

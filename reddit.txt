@@ -1,0 +1,44 @@
+! Title: tomofilters - reddit
+! Expires: 1 day
+! Description: disable reddit annoyances
+! Homepage: https://github.com/neontomo/tomofilters.txt
+
+! --CONTENT--
+
+! disable automatic Reddit content translations
+||reddit.com^$removeparam=tl
+
+! disable Reddit recommended content
+reddit.com##shreddit-post[recommendation-source]
+
+! hide user avatars everywhere (needs `span` in the syntax or else it will hide comments)
+reddit.com##[slot="commentAvatar"]:has(span[avatar]),span[avatar],[alt*="avatar"]
+
+! --SIDEBAR--
+
+! hide right sidebar on main page only (recent posts)
+reddit.com##:matches-path(/^/$/) #right-sidebar-container
+
+! make main content fill the sidebar space
+reddit.com##:matches-path(/^/$/) .main-container:style(grid-template-columns: none !important)
+reddit.com##:matches-path(/^/$/) .main-container:remove-class(s:[&.fixed-sidebar]:grid-cols-[minmax(0,1fr)_minmax(0,316px)])
+reddit.com##:matches-path(/^/$/) .main-container:remove-class(place-content-between)
+
+
+! --HEADER--
+
+! hide header items for advertising, chat, creating posts, inbox
+reddit.com##reddit-header-action-items [data-part="advertise"], reddit-header-action-items [data-part="chat"], reddit-header-action-items [data-part="create"], reddit-header-action-items [data-part="inbox"]
+
+! hide individual annoying items in user drawer content
+reddit.com###user-drawer-content [source="achievements"][noun="user_drawer"], #user-drawer-content [source="earn"][noun="entrypoint"], #user-drawer-content [source="nav"][noun="premium_menu"]
+
+! hide entire list section with promotional items in user drawer content (advertise on Reddit, try Reddit Pro)
+reddit.com###user-drawer-content ul:has([source="user_drawer"][noun="try_reddit_pro"])
+
+! hide Reddit logo in search input field
+reddit.com##svg[slot="leadingIcon"]
+
+! replace Reddit logo in header with plain link to homepage
+reddit.com###reddit-logo svg
+reddit.com###reddit-logo::after:style(content: "reddit"; font-weight: bold; color: black;)
