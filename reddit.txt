@@ -14,6 +14,10 @@ reddit.com##shreddit-post[recommendation-source]
 ! hide user avatars everywhere (needs `span` in the syntax or else it will hide comments)
 reddit.com##[slot="commentAvatar"]:has(span[avatar]),span[avatar]
 
+! prevent videos from taking too much space in old.reddit.com
+old.reddit.com##iframe.media-embed:style(max-width: 50vw !important;)
+old.reddit.com##iframe.media-embed:style(max-height: 100vh !important;)
+
 ! --SIDEBAR--
 
 ! hide right sidebar on main page only (recent posts)
