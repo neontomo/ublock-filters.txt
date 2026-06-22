@@ -25,6 +25,10 @@ youtube.com###social-links yt-button-view-model:has(a[href*="patreon.com"]),#soc
 ! hide comment engagement bar (likes, like, dislike, reply)
 youtube.com###comment-container ytd-comment-engagement-bar
 
+! hide Join button on video and channel page
+###sponsor-button:has(button[aria-label="Join this channel"])
+##div.ytFlexibleActionsViewModelAction:has(button[aria-label="Join this channel"])
+
 ! ------------
 ! New YouTube UI Improved x2
 ! Source: https://www.reddit.com/r/uBlockOrigin/comments/1ontvi5/new_youtube_ui_improved_x2_i_added_fullscreen
