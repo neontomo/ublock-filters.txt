@@ -29,6 +29,10 @@ youtube.com###comment-container ytd-comment-engagement-bar
 youtube.com###sponsor-button:has(button[aria-label="Join this channel"])
 youtube.com##div.ytFlexibleActionsViewModelAction:has(button[aria-label="Join this channel"])
 
+! hide members-only videos and members-only filter on profiles
+youtube.com##ytd-rich-item-renderer:has(yt-badge-view-model):has(badge-shape)
+youtube.com##.ytChipBarViewModelChipWrapper:has(button[aria-label="Members only"])
+
 ! ------------
 ! New YouTube UI Improved x2
 ! Source: https://www.reddit.com/r/uBlockOrigin/comments/1ontvi5/new_youtube_ui_improved_x2_i_added_fullscreen
