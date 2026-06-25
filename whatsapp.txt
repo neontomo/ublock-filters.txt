@@ -1,0 +1,15 @@
+! Title: tomofilters - whatsapp
+! Expires: 1 day
+! Description: disable whatsapp annoyances
+! Homepage: https://github.com/neontomo/tomofilters.txt
+
+! hide Status and Channels tabs in left sidebar
+web.whatsapp.com##div[data-testid="navbar-primary-section"] > div :has([data-navbar-item="true"][aria-label="Status"])
+web.whatsapp.com##div[data-testid="navbar-primary-section"] > div :has([data-navbar-item="true"][aria-label="Channels"])
+
+! hide Ask Meta AI button on start page and in message editing options
+web.whatsapp.com##div[data-testid="intro-panel-empty-state-action-tile-group"] > div:has-text("Ask Meta AI")
+web.whatsapp.com##button:has-text('Ask Meta AI')
+
+! hide Download WhatsApp for Mac prompt
+web.whatsapp.com##[data-testid="intro-panel"] > div:has-text("Get from App Store")
